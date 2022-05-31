@@ -1,0 +1,16 @@
+domain: home-an.cn
+layout:
+- go.kubebuilder.io/v3
+projectName: redis-operator
+repo: github.com/logan-an/redis-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: home-an.cn
+  group: redis
+  kind: RedisCluster
+  path: github.com/logan-an/redis-operator/api/v1alpha1
+  version: v1alpha1
+version: "3"

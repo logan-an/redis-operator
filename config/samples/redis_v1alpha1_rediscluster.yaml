@@ -1,0 +1,6 @@
+apiVersion: redis.home-an.cn/v1alpha1
+kind: RedisCluster
+metadata:
+  name: rediscluster-sample
+spec:
+  # TODO(user): Add fields here
